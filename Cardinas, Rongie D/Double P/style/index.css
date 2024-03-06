@@ -1,0 +1,179 @@
+h1{
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    justify-content: justify;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+body{
+    background-image: url(../Image/body.jpg);
+    font-family: Calibri,Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    background-size: cover;
+    background-position: 0px 80%;
+
+}
+header{
+    height: 72px;
+    background-image: url(../Image/LOGO.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    background-color: rgb(27,27,152);
+}
+
+
+header h1{
+    padding-top: 0.5em;
+    text-align: center;
+}
+.heroimage{
+    background-image: url(../Image/heroimage.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0px 80%;
+}
+
+
+.heroimage1{
+    background-image: url(../Image/heroimage1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0px 80%;
+}
+.heroimage2{
+    background-image: url(../Image/heroimage2.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0px 80%;
+}
+
+.wrapper{
+    background-color: white;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 5px 45px -2px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 12px 5px 45px -2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 12px 5px 45px -2px rgba(0,0,0,0.7); 
+}
+
+nav{
+    padding: 0.5em;
+    background-color: white;
+    text-align: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(27,27,152);
+    padding: 0.5em 1em 0.5em 1em;
+    font-weight: 600;
+    
+}
+
+nav a:hover{
+    color:white;
+    background-color: rgb(27,27,152);
+    transition: 0.4s;
+}
+main{
+    padding: 0em 2em 1em 2em;
+}
+
+footer{
+    padding: 0em 2em 1em 2em;
+    text-align: center;
+}
+
+.heroimage_reservation{
+    background-image: url(../Image/heroimage_reservation.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0px 80%;
+}
+
+.reservation-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 15px 2px rgba(0, 0, 0, 0.62);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: rgb(27,27,152);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(27,27,152);
+}
+
+.cardroom {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 2px 17px 6px rgba(0, 0, 0, 0.59);
+    margin: 20px;
+    
+}
+
+.cardroom img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-contentroom {
+    padding: 20px;
+}
+
+.room-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.room-details {
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(27,27,152);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
